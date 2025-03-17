@@ -1,0 +1,42 @@
+#1a - Gym program
+
+package BM23AI160;
+
+import java.util.Scanner;
+
+public class GYM {
+    String name;
+    int age;
+    boolean status;
+    int duration;
+    int amount;
+
+    void calculate() {
+        amount = duration * 100;
+        System.out.println("Amount for " + duration + " months: " + amount);
+    }
+
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Status: " + (status ? "Active" : "Inactive"));
+        System.out.println("Duration: " + duration + " months");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        GYM gymMember = new GYM();
+        System.out.println("Enter name: ");
+        gymMember.name = scanner.nextLine();
+        System.out.println("Enter age: ");
+        gymMember.age = scanner.nextInt();
+        System.out.println("Enter status (true or false): ");
+        gymMember.status = scanner.nextBoolean();
+        System.out.println("Enter duration (in months): ");
+        gymMember.duration = scanner.nextInt();
+        gymMember.display();
+        gymMember.calculate();
+        scanner.close();
+    }
+}
+
