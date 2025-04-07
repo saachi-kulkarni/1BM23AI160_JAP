@@ -1,0 +1,22 @@
+public class enum_prgm  {
+    public enum DayOfWeek{
+        SUNDAY,
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY,
+        SATURDAY;
+        public boolean isWorkday(){
+            return (this != SATURDAY && this != SUNDAY);
+        }
+    }
+    public static void main(String[] args ){
+
+        System.out.println("Is Monday a Work day ? "+DayOfWeek.MONDAY.isWorkday());
+
+        System.out.println("Is Saturday a Work day ? "+DayOfWeek.SATURDAY.isWorkday());
+
+    }
+
+}
