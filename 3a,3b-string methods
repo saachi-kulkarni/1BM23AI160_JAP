@@ -1,0 +1,36 @@
+public class stringmethod {
+    public static void main(String[] args) {
+        StringBuffer s1 = new StringBuffer("SAACHI");
+        System.out.println("string is:" + s1);
+        System.out.println("string length is:" + s1.length());
+        System.out.println("capacity is:" + s1.capacity());
+        System.out.println("after appending:" + s1.append("KULKARNI"));
+        System.out.println("deleting char in string:" +s1.delete(2,3));
+        System.out.println("reversed string:" +s1.reverse());
+        System.out.println("deleting char at index 4:" +s1.deleteCharAt(4));
+        System.out.println("char at 3 being replaced by:" +s1.replace(2,3,"n"));
+        String s11="Good";
+        String s22="good";
+        boolean a=s11.equals(s22);
+        System.out.println(a);
+        boolean a1=s11.equalsIgnoreCase(s22);
+        System.out.println(a1);
+        int z=s11.compareTo(s22);
+        System.out.println(z);
+        System.out.println(s11==s22);
+        String x=s11.concat(s22);
+        System.out.println("concatenated string:"+x);
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
