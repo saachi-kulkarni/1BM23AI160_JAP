@@ -29,3 +29,12 @@ PROGRAM 2 OUTPUT
 ![image](https://github.com/user-attachments/assets/fe92389a-1a6e-4bf6-a69f-69053feaaf1e)
 
 
+5-OUTPUT
+
+![image](https://github.com/user-attachments/assets/8c979077-1a3b-4cdf-afa4-67f62772bdaf)
+
+
+
+7-OUTPUT
+
+![image](https://github.com/user-attachments/assets/3d78f7e4-c370-4cc1-aa76-6e3c60f3c314)
