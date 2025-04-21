@@ -1,0 +1,54 @@
+package AI160_JAP;
+import java.util.Vector;
+
+class Product {
+    String name;
+    double price;
+    String category;
+
+    public Product(String name, double price, String category) {
+        this.name = name;
+        this.price = price;
+        this.category = category;
+    }
+}
+
+public class onlineshoppingmanager {
+    private Vector<Product> inventory;
+
+    public onlineshoppingmanager() {
+        inventory = new Vector<>();
+    }
+
+    public void addProduct(String name, double price, String category) {
+        Product product = new Product(name, price, category);
+        inventory.add(product);
+    }
+
+    public void removeProduct(String name) {
+        for (int i = 0; i < inventory.size(); i++) {
+            if (inventory.get(i).name.equalsIgnoreCase(name)) { // Use 'name' instead of 'Name'
+                inventory.remove(i);
+                break;
+            }
+        }
+    }
+
+    public void displayInventory() {
+        System.out.println("Inventory:");
+        for (Product product : inventory) {
+            System.out.println("Name: " + product.name + " Price: " + product.price + " Category: " + product.category);
+        }
+    }
+
+    public static void main(String[] args) {
+        onlineshoppingmanager manager = new onlineshoppingmanager();
+        manager.addProduct("pizza", 230, "food");
+        manager.addProduct("sprite", 50, "drinks");
+        manager.addProduct("apple", 50, "fruit");
+        manager.addProduct("dosa", 50, "food");
+        manager.displayInventory();
+        manager.removeProduct("dosa");
+        manager.displayInventory();
+    }
+}
