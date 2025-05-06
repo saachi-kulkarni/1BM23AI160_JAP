@@ -35,10 +35,8 @@ PROGRAM 2 OUTPUT
 
 
 6-OUTPUT
-
 ![image](https://github.com/user-attachments/assets/947b222e-f539-4cef-9efc-d36511b94e8c)
 
 
 7-OUTPUT
-
 ![image](https://github.com/user-attachments/assets/3d78f7e4-c370-4cc1-aa76-6e3c60f3c314)
