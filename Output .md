@@ -47,3 +47,13 @@ PROGRAM 2 OUTPUT
 8-OUTPUT
 ![image](https://github.com/user-attachments/assets/d453b1dc-022b-4389-996e-cbd490dfbc38)
 
+9-OUTPUT
+
+![image](https://github.com/user-attachments/assets/964c9eac-3029-4f2b-9220-0ace65ac5fc7)
+
+10-OUTPUT
+
+![image](https://github.com/user-attachments/assets/325ef398-0c5f-458d-8cfd-3419b3784b51)
+
+
+
